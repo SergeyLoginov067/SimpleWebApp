@@ -16,14 +16,14 @@ public class Document {
     @Column(name = "sender")
     private Long senderId;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "sender", nullable = false, updatable = false, insertable = false)
     private User sender;
 
     @Column(name = "receiver")
     private Long receiverId;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "receiver", nullable = false, updatable = false, insertable = false)
     private User receiver;
 
