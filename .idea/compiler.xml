@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="SimpleWebApp" target="11" />
+      <module name="SimpleWebApp" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
